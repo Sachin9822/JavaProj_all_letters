@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_apology_page.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_leave_page.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_plain.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_request_page.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_templates.xml" value="0.35625" />
       </map>
     </option>

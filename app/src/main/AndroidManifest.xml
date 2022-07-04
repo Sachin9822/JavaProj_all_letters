@@ -14,6 +14,15 @@
         android:theme="@style/Theme.All_letters"
         tools:targetApi="31">
         <activity
+            android:name=".request_page"
+            android:exported="false" />
+        <activity
+            android:name=".apology_page"
+            android:exported="false" />
+        <activity
+            android:name=".leave_page"
+            android:exported="false" />
+        <activity
             android:name=".notes"
             android:exported="false" />
         <activity

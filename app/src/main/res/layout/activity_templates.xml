@@ -27,6 +27,7 @@
         >
 
         <androidx.cardview.widget.CardView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -37,7 +38,7 @@
             android:layout_margin="26dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            android:id="@+id/card1"
+            android:id="@+id/appology_card"
 
             >
 
@@ -81,7 +82,7 @@
             android:layout_margin="26dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            android:id="@+id/card2"
+            android:id="@+id/leave_card"
             >
 
             <LinearLayout
@@ -124,7 +125,7 @@
             android:layout_margin="26dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            android:id="@+id/card3"
+            android:id="@+id/request_card"
             >
 
             <LinearLayout
@@ -146,7 +147,7 @@
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Request Letter"
+                    android:text="Internship Letter"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     />
