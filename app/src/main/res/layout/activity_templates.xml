@@ -59,12 +59,11 @@
 
 
                 <TextView
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="Apology Letter"
-                    android:textStyle="bold"
                     android:textAlignment="center"
-                    />
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
@@ -102,12 +101,11 @@
 
 
                 <TextView
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Leave Letter"
-                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="leave Letter"
                     android:textAlignment="center"
-                    />
+                    android:textStyle="bold" />
 
 
             </LinearLayout>

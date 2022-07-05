@@ -19,60 +19,60 @@
             >
 
             <EditText
+                android:id="@+id/sendername"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:hint="Sender Name"
-                android:id="@+id/sendername" />
+                android:hint="Sender Name" />
 
             <EditText
+                android:id="@+id/senderAddress"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="128dp"
                 android:layout_marginTop="20dp"
-                android:hint="Sender Address"
-                android:id="@+id/senderAddress" />
+                android:hint="Sender Address" />
 
             <EditText
+                android:id="@+id/senderClass"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:hint="Sender Class"
-                android:id="@+id/senderClass" />
+                android:hint="Sender Class" />
 
             <EditText
+                android:id="@+id/senderDate"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:hint="Sending Date (dd-mm-yyyy)"
-                android:id="@+id/senderDate" />
+                android:hint="Sending Date (dd-mm-yyyy)" />
 
             <EditText
+                android:id="@+id/RecipientName"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:hint="Recipient Name"
-                android:id="@+id/RecipientName" />
+                android:hint="Recipient Name" />
 
             <EditText
+                android:id="@+id/recipientDesig"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:hint="Recipient Designation"
-                android:id="@+id/recipientDesig" />
+                android:hint="Recipient Designation" />
 
             <EditText
+                android:id="@+id/RecipientOrg"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:hint="Recipient Organisation"
-                android:id="@+id/RecipientOrg" />
+                android:hint="Recipient Organisation" />
 
             <EditText
+                android:id="@+id/RecipientAddress"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="128dp"
                 android:layout_marginTop="20dp"
-                android:hint="Recipient Address"
-                android:id="@+id/RecipientAddress" />
+                android:hint="Recipient Address" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -88,12 +88,12 @@
                 android:id="@+id/cause" />
 
             <Button
+                android:id="@+id/generate_pdf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Submit"
 
 
-                />
+                android:text="Submit" />
 
 
 

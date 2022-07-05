@@ -13,125 +13,131 @@
         >
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="15dp"
             >
 
             <EditText
+                android:id="@+id/sendername"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:hint="Sender Name"
-                android:id="@+id/sendername" />
+                android:autofillHints=""
+                android:hint="Sender Name" />
 
             <EditText
+                android:id="@+id/senderOrg"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sender Organisation"
-                android:id="@+id/senderOrg" />
+                android:autofillHints="" />
 
             <EditText
+                android:id="@+id/senderAddress"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="128dp"
                 android:layout_marginTop="20dp"
                 android:hint="Organisation Address"
-                android:id="@+id/senderAddress" />
+                android:autofillHints="" />
 
             <EditText
+                android:id="@+id/sender_dept"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sender Department"
-                android:id="@+id/sender_dept" />
+                android:autofillHints="" />
 
             <EditText
+                android:id="@+id/roll_no"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:hint="College Roll.no"
-                android:id="@+id/roll_no" />
+                android:autofillHints="" />
 
             <EditText
+                android:id="@+id/senderDate"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sending Date (dd-mm-yyyy)"
-                android:id="@+id/senderDate" />
+                android:autofillHints="" />
 
             <EditText
+                android:id="@+id/recipientDesig"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="20dp"
-                android:hint="Recipient Name"
-                android:id="@+id/RecipientName" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Designation"
-                android:id="@+id/recipientDesig" />
+                android:autofillHints="" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Organisation"
-                android:id="@+id/RecipientOrg" />
+                android:id="@+id/RecipientOrg"
+                android:autofillHints="" />
 
             <EditText
+                android:id="@+id/RecipientAddress"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="128dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Address"
-                android:id="@+id/RecipientAddress" />
+                android:autofillHints="" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Internship role"
-                android:id="@+id/intern_role" />
+                android:id="@+id/intern_role"
+                android:autofillHints="" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Internship Company"
-                android:id="@+id/internCompany" />
+                android:id="@+id/internCompany"
+                android:autofillHints="" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Tenure"
-                android:id="@+id/tenure" />
+                android:id="@+id/tenure"
+                android:autofillHints="" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Start Date"
-                android:id="@+id/start_date" />
+                android:id="@+id/start_date"
+                android:autofillHints="" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Timings (from-to o'clock)"
-                android:id="@+id/timing" />
-
+                android:id="@+id/timing"
+                android:autofillHints="" />
 
 
             <Button
+                android:id="@+id/request_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Submit"
 
 
-                />
+                android:text="Submit" />
 
 
 

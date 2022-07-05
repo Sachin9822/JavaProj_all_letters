@@ -40,11 +40,11 @@
                 android:id="@+id/senderOrg" />
 
             <EditText
+                android:id="@+id/senderAddress"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="128dp"
                 android:layout_marginTop="20dp"
-                android:hint="Sender Address"
-                android:id="@+id/senderAddress" />
+                android:hint="Sender Address" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -89,11 +89,11 @@
                 android:id="@+id/RecipientOrg" />
 
             <EditText
+                android:id="@+id/RecipientAddress"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="128dp"
                 android:layout_marginTop="20dp"
-                android:hint="Recipient Address"
-                android:id="@+id/RecipientAddress" />
+                android:hint="Recipient Address" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -110,12 +110,12 @@
                 android:id="@+id/substitute" />
 
             <Button
+                android:id="@+id/generate_pdf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Submit"
 
 
-             />
+                android:text="Submit" />
 
 
 
