@@ -10,12 +10,14 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/background"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="15dp"
+
             >
             
             <EditText
@@ -23,6 +25,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sender Name"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/sendername" />
 
             <EditText
@@ -30,6 +34,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sender Designation"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/senderdesignation" />
 
             <EditText
@@ -37,6 +43,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sender Organisation"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/senderOrg" />
 
             <EditText
@@ -44,6 +52,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="128dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sender Address" />
 
             <EditText
@@ -51,6 +61,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sender Phone no."
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/senderPhone" />
 
             <EditText
@@ -58,12 +70,16 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sender email"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/senderEmail" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sending Date (dd-mm-yyyy)"
                 android:id="@+id/senderDate" />
 
@@ -72,6 +88,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Name"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/RecipientName" />
 
             <EditText
@@ -79,6 +97,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Designation"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/recipientDesig" />
 
             <EditText
@@ -86,6 +106,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Organisation"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/RecipientOrg" />
 
             <EditText
@@ -93,6 +115,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="128dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Recipient Address" />
 
             <EditText
@@ -100,12 +124,16 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Leaave Date(From-To)"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/leavedates" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Subsititute Name(if none enter collegue)"
                 android:id="@+id/substitute" />
 
@@ -113,6 +141,8 @@
                 android:id="@+id/generate_pdf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="#8b40d6"
 
 
                 android:text="Submit" />

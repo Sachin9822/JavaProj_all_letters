@@ -10,12 +10,17 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/background"
+
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="15dp"
+
+
+
             >
 
             <EditText
@@ -23,13 +28,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+
+
                 android:hint="Sender Name" />
+
 
             <EditText
                 android:id="@+id/senderAddress"
                 android:layout_width="match_parent"
                 android:layout_height="128dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sender Address" />
 
             <EditText
@@ -37,6 +49,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sender Class" />
 
             <EditText
@@ -44,6 +58,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sending Date (dd-mm-yyyy)" />
 
             <EditText
@@ -51,6 +67,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Recipient Name" />
 
             <EditText
@@ -58,6 +76,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Recipient Designation" />
 
             <EditText
@@ -65,6 +85,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Recipient Organisation" />
 
             <EditText
@@ -72,12 +94,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="128dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Recipient Address" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Period of absence(From -To dd.mm.yyyy)"
                 android:id="@+id/leavedates" />
             <EditText
@@ -85,12 +111,16 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Cause of absence"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/cause" />
 
             <Button
                 android:id="@+id/generate_pdf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="#8b40d6"
 
 
                 android:text="Submit" />

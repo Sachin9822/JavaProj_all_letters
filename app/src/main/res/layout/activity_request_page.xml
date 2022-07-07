@@ -7,9 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".leave_page">
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/background"
+
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,7 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
-                android:autofillHints=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sender Name" />
 
             <EditText
@@ -31,6 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sender Organisation"
                 android:autofillHints="" />
 
@@ -39,6 +45,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="128dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Organisation Address"
                 android:autofillHints="" />
 
@@ -47,6 +55,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Sender Department"
                 android:autofillHints="" />
 
@@ -55,6 +65,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="College Roll.no"
                 android:autofillHints="" />
 
@@ -64,6 +76,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:hint="Sending Date (dd-mm-yyyy)"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:autofillHints="" />
 
             <EditText
@@ -71,6 +85,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:hint="Recipient Designation"
                 android:autofillHints="" />
 
@@ -79,6 +95,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Organisation"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/RecipientOrg"
                 android:autofillHints="" />
 
@@ -88,6 +106,8 @@
                 android:layout_height="128dp"
                 android:layout_marginTop="20dp"
                 android:hint="Recipient Address"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:autofillHints="" />
 
             <EditText
@@ -95,6 +115,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Internship role"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/intern_role"
                 android:autofillHints="" />
 
@@ -103,6 +125,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Internship Company"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/internCompany"
                 android:autofillHints="" />
 
@@ -112,6 +136,8 @@
                 android:layout_marginTop="20dp"
                 android:hint="Tenure"
                 android:id="@+id/tenure"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:autofillHints="" />
 
             <EditText
@@ -120,6 +146,8 @@
                 android:layout_marginTop="20dp"
                 android:hint="Start Date"
                 android:id="@+id/start_date"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:autofillHints="" />
 
             <EditText
@@ -127,6 +155,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:hint="Timings (from-to o'clock)"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:id="@+id/timing"
                 android:autofillHints="" />
 
@@ -135,6 +165,8 @@
                 android:id="@+id/request_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="#8b40d6"
 
 
                 android:text="Submit" />

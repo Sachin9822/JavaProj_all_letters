@@ -39,6 +39,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             android:id="@+id/appology_card"
+            app:cardBackgroundColor="@color/cardview_light_background"
 
             >
 
@@ -63,6 +64,8 @@
                     android:layout_height="wrap_content"
                     android:text="Apology Letter"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
                     android:textStyle="bold" />
 
 
@@ -82,6 +85,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             android:id="@+id/leave_card"
+            app:cardBackgroundColor="@color/cardview_light_background"
             >
 
             <LinearLayout
@@ -105,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:text="leave Letter"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
                     android:textStyle="bold" />
 
 
@@ -124,6 +130,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             android:id="@+id/request_card"
+            app:cardBackgroundColor="@color/cardview_light_background"
             >
 
             <LinearLayout
@@ -148,6 +155,8 @@
                     android:text="Internship Letter"
                     android:textStyle="bold"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
                     />
 
 

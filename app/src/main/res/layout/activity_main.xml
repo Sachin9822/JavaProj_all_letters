@@ -38,6 +38,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             android:id="@+id/card1"
+            app:cardBackgroundColor="@color/cardview_light_background"
             >
 
             <LinearLayout
@@ -59,6 +60,8 @@
                        android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:text="Templates"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/black"
                         android:textStyle="bold"
                         android:textAlignment="center"
                             />
@@ -80,6 +83,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             android:id="@+id/card2"
+            app:cardBackgroundColor="@color/cardview_light_background"
             >
 
             <LinearLayout
@@ -102,6 +106,8 @@
                     android:layout_width="wrap_content"
                     android:text="Plain Text"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
                     android:textAlignment="center"
                     />
 
@@ -122,6 +128,7 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             android:id="@+id/card3"
+            app:cardBackgroundColor="@color/cardview_light_background"
             >
 
             <LinearLayout
@@ -144,6 +151,8 @@
                     android:layout_width="wrap_content"
                     android:text="Notes"
                     android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
                     android:textAlignment="center"
                     />
 
